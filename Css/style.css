@@ -1,0 +1,378 @@
+/*home body style*/
+body{
+	background:rgb(0, 0, 0);
+	margin:0;
+	padding:0;
+	margin-top: 50px;
+}
+/*home picture style*/
+.banner-area{
+	width: 100%;
+	height: 640px;
+	position: fixed;
+	top:100px;
+	background-image: url(../img/background.png);
+	z-index: -1;/*overlay picture*/
+	background-size: cover;
+	background-position: center center;
+}
+
+/*navigation bar style*/ 
+nav{
+	margin-top: 50px;
+	width:100%;
+	background:rgb(43, 6, 6);
+	overflow:auto;
+	min-height: 50px;
+    	height: 50px; 
+    margin-top: -30px;
+}
+/*unordered list style(home,projects,attainment)*/
+ul{
+	padding: 0;
+	margin:0 0 0 1000px;
+	list-style:none;
+}
+li{
+	float:left;
+}
+/*front picture style*/
+.aj img {
+	display:block;
+	position:absolute;
+	margin-left: 190px;
+	margin-top: 150px;
+	max-width:70%;
+	max-height:65%;
+}
+.aj img {
+    box-shadow: 2px 2px 2px 9px rgb(245, 245, 245);
+}
+.meh img {
+	display:block;
+	position:absolute;
+	margin-left: 1080px;
+	margin-top: 860px;
+	max-width:70%;
+	max-height:65%;
+}
+.meh img {
+    box-shadow: 2px 2px 2px 9px rgb(47, 207, 232);
+}
+.myfam img {
+	display:block;
+	position:absolute;
+	margin-left: 100px;
+	margin-top: 1430px;
+	max-width:70%;
+	max-height:65%;
+}
+.myfam img {
+    box-shadow: 2px 2px 2px 9px rgb(3, 205, 255);
+}
+
+nav a{
+	width:120px;
+	display:block;
+	padding:16px 11px;
+	text-decoration:none;
+	font-family:Arial;
+	font-weight: bold;
+	color:#fffefe;
+	text-align:center;
+}
+/*home tab hover*/
+nav a:hover{
+	background:black;
+	transition:0.1s;
+	text-transform:uppercase;
+}
+
+footer{ /*footer style*/
+
+	position: fixed absolute;
+  	width:1470px;
+ 	height: 20px;
+  	text-shadow: 2px 2px 10px #FFFAF0;
+	font-weight: 500px;
+  	background-color:rgb(43, 6, 6);
+  	text-align: center;
+    margin-top: 640px;
+}
+
+/*Text*/
+/*text style*/
+h2{
+	font-family: arial;
+	color:white;
+}
+h3{
+	font-family: arial;
+	color:white;
+    font-size: 40px;
+}
+h4{
+	font-family: arial;
+	color:white;
+    font-size: 20px;
+}
+h5{
+	font-family: arial;
+	color:white;
+    font-size: 20px;
+}
+p{
+	font-family: arial;
+	color:white;
+}
+
+div {
+    display: block;
+}
+/*appetizer style*/
+.histotab {
+    margin-left: 630px;
+    margin-top: 40px;
+}
+
+/*Aj Resto style*/
+.una {
+    padding: 20px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 425px;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-bottom: 47px;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+.una img:hover{
+    transform: scale(1.1);
+}
+
+
+/*Video Player style*/
+.pangalawa {
+    padding: 20px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 420px;
+    margin-left: 510px;
+    margin-top: -565px;
+    margin-bottom: 30px;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+.pangalawa img:hover{
+    transform: scale(1.1);
+}
+/*Capstone style*/
+.pangatlo{
+    padding: 20px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 410px;
+    margin-left: 985px;
+    margin-top: -550px;
+    margin-bottom: 25px;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+.pangatlo img:hover{
+    transform: scale(1.1);
+}
+.pangapat{
+    padding: 20px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 410px;
+    margin-left: 35px;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+.pangapat img:hover{
+    transform: scale(1.1);
+}
+
+/*About*/
+/*Hi! Im Aroma Joy in INDEX.html*/
+.rt{
+    padding: 50px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 900px;
+    margin-left: 650px;
+    margin-top: 160px;
+    margin-bottom: 60px;
+    border-radius: 7px 7px;
+    text-align: justify;
+}
+
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 67px;
+}
+/*About Me style*/
+.about{
+    width: 100%;
+    padding:100px 0px;
+    margin-top: 160px;
+    background-color: #191919;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-round;
+}
+.about-text h1{
+    color: rgb(117, 221, 239);
+    font-size: 90;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+.about-text p{
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+ 
+}
+/*My Family style*/
+.family{
+    width: 100%;
+    padding:100px 0px;
+    margin-top: 5px;
+    background-color: #000000;
+    text-align: right;
+    
+}
+.main{
+    width: 1500px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-round;
+}
+.family-text h1{
+    color: rgb(117, 221, 239);
+    font-size: 90;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+.family-text p{
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-right: 90px;
+}
+.believe-text h1{
+    color: rgb(117, 221, 239);
+    font-size: 90;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+.believe-text p{
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+}
+/*CLSU LOGO*/
+.clsul {
+    padding: 15px;
+    background-color: rgb(77, 77, 77);
+    opacity: 0.9;
+    max-width: 400px;
+    margin-left: 170px;
+    margin-top: -450px;
+    margin-bottom: 25px;
+    border-radius: 7px 7px;
+    text-align: center;
+}
+.cl{
+    padding: 50px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 900px;
+    margin-left: 670px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 7px 7px;
+    text-align: justify;
+}
+
+/*CNHS LOGO*/
+.cnhs {
+    padding: 15px;
+    background-color: rgb(77, 77, 77);
+    opacity: 0.9;
+    max-width: 400px;
+    margin-left: 170px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    border-radius: 7px 7px;
+    text-align: center;
+}
+.cn{
+    padding: 50px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 900px;
+    margin-left: 670px;
+    margin-top: -450px;
+    margin-bottom: 60px;
+    border-radius: 7px 7px;
+    text-align: justify;
+}
+/*Elementary*/
+.capintalan {
+    padding: 15px;
+    background-color: rgb(77, 77, 77);
+    opacity: 0.9;
+    max-width: 400px;
+    margin-left: 170px;
+    margin-top: -435px;
+    margin-bottom: 25px;
+    border-radius: 7px 7px;
+    text-align: center;
+}
+.cap{
+    padding: 50px;
+    background-color: gray;
+    opacity: 0.9;
+    max-width: 900px;
+    margin-left: 670px;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    border-radius: 7px 7px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
